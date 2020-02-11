@@ -1,6 +1,6 @@
 cache: npm
 deploy: 
-  github-token: $GITHUB_TOKEN
+  github-token: $github_token
   local_dir: build
   provider: pages
   skip-cleanup: true
