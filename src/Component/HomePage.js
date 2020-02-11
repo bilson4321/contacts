@@ -5,9 +5,7 @@ import UserDetail from './UserDetail';
 import SearchIcon from './../Images/search-icon.png';
 
 class HomePage extends React.Component {
-    constructor() {
-        super();
-    }
+   
     render() {
         return (
             <React.Fragment>
@@ -17,7 +15,7 @@ class HomePage extends React.Component {
                             <h2 className="pl-2">Contacts</h2>
                         </div>
                         <div className="col-sm-3">
-                            <img src={SearchIcon} className="img-fluid"></img>
+                            <img src={SearchIcon} className="img-fluid" alt="image"></img>
                         </div>
                     </div>
                 </div>
