@@ -2,9 +2,6 @@ import React from 'react';
 import UserImage from './../Images/user.png';
 
 class UserDetail extends React.Component {
-    constructor() {
-        super();
-    }
     render() {
         return (
             <div className="col-sm-3">

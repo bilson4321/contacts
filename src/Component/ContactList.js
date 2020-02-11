@@ -47,7 +47,7 @@ class ContactList extends React.Component {
                     ariaHideApp={false}
                     contentLabel="Detail">
                        <Link to={`/edit/${this.state.modalView.id}`}>Edit</Link>
-                    <img alt="image"></img>
+                    <img alt="foo"></img>
                     <h1>Name: {this.state.modalView.name}</h1>  
                     <h1>Number: {this.state.modalView.phone_number}</h1>  
                     <h1>Address: {this.state.modalView.address}</h1>  

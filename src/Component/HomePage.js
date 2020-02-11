@@ -15,7 +15,7 @@ class HomePage extends React.Component {
                             <h2 className="pl-2">Contacts</h2>
                         </div>
                         <div className="col-sm-3">
-                            <img src={SearchIcon} className="img-fluid" alt="image"></img>
+                            <img src={SearchIcon} className="img-fluid" alt="bar"></img>
                         </div>
                     </div>
                 </div>
